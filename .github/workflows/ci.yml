@@ -23,7 +23,7 @@ jobs:
       - run: npm run test
 
   check-rust:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: dtolnay/rust-toolchain@master
